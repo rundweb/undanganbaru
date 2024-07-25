@@ -108,8 +108,15 @@ font-family: "Lato", sans-serif;
   position: absolute;
   z-index: -1;
   width: 400px;
-  left: 0;
-  bottom: -150px;
+  left: 0px;
+  bottom: -120px;
+  /* animation: resize 3s infinite; */
+}
+
+@keyframes resize {
+  0%{width: 400px;}
+  50%{width: 350px;}
+  100%{width: 400px;}
 }
 
 .img2{
@@ -119,4 +126,11 @@ font-family: "Lato", sans-serif;
   top: -100px;
   left: -100px;
   transform: rotate(90deg);
+  /* animation: resize2 3s infinite; */
+}
+
+@keyframes resize2 {
+  0%{width: 300px;}
+  50%{width: 250px;}
+  100%{width: 300px;}
 }
